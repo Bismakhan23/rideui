@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+.btn-custom1{
+    background: #FEFEFF;
+    border: 1px solid #BEBEBE;
+    border-radius: 20px;
+   
+}
+.btn-custom1:hover{
+    background: #FEFEFF;
+    border: 1px solid #BEBEBE;
+    border-radius: 20px;   
+}
+.border{
+    background: #FEFEFF;
+    border: 2px solid #BEBEBE;
+    border-radius: 50px;
+}
+.border-radius{
+    border: 2px solid #FEFEFF;
+    border-radius: 40px;
+}
+.container{
+      height: 80vh;
+      width: 80vw;
+      border: 2px solid #FEFEFF;
+      background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      position: relative;
+}
+.left{
+      height: 80vh;
+      width: 30vw;
+      position: relative;
+}
+.left p{
+position: relative; 
+top: 10vw;
+}
+.left h1{
+ position: relative;
+ top: 8.5vw;   
+}
+.left h6{
+    position: relative;
+    top: 8vw; 
+}
+.form{
+    position: relative;
+    top: 10vw;
+}
+.btn-custom{
+   position: relative;
+   bottom: 2.5vw;
+   left: 24vw;
+   border-radius: 14vw;
+   background-color: black;
+   color: #FEFEFF;
+}
+.btn-custom:hover{
+   position: relative;
+   bottom: 2.5vw;
+   left: 19vw;
+   border-radius: 14vw;
+   background-color: black;
+   color: #FEFEFF;
+}
+.right{
+    height: 40vh;
+    width: 30vw;
+}
+.right img{
+    position: relative;
+    left: 5vw;
+    height: 40vh;
+    width: 30vw;
+
+}
+@media (max-width: 576px) {
+    .container{
+        height: 100vh;
+        width: 80vw;
+        border: 2px solid #FEFEFF;
+        background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        position: relative;
+    }
+    .left{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        height: 40vh;
+        width:  40vw;
+        flex-direction: column;
+        bottom: 45vw;
+    }
+    .left h6{
+        position: relative;
+        font-weight: 200;
+     
+        left: 2vw;
+    }
+    .left h1{
+        position: relative;
+        font-weight: 300;
+        bottom: 10vw;
+        left: 2vw;
+    }
+    .left p{
+        position: relative;
+        bottom: 10vw;
+        left: 2vw;
+    }
+    .form{
+        position: relative;
+        top: 70vw;
+        right: 31vw;
+         
+    }
+    .btn-custom{
+        position: relative;
+        bottom: 7vw;
+        right: 10vw;
+    }
+    .right{
+        height: 60vh;
+        width: 40vw;
+        position: relative;
+        right: 32vw;
+        top: 20vw;
+    }
+    .right img{
+           position: relative;
+           top:20vw;
+           height: 60vh;
+           width: 40vw;
+    }
+}
+
+.text{
+    display: flex;
+     justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.text h1{
+    position: relative;
+    bottom: 19vw;
+    font-size: 4vw;
+    font-weight: 650;
+    left: 8vw;
+}
+.text h6{
+    position: relative;
+    bottom: 18vw;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10vw;
+}
+.container2{
+    height: 100vh;
+    width: 88vw;
+    display: flex;
+    
+    flex-wrap: wrap;
+    position: relative;
+}
+.bone{
+    height: 33vh;
+    width: 28vw; 
+    position: relative;
+    top: 2vw;
+}
+
+.bone.bottom{
+    height: 18vh;
+    width: 25vw;
+    background-color: darkgreen;
+}
+.btwo{
+    height: 33vh;
+    width: 25vw;
+}
+.bthree{
+    height: 33vh;
+    width: 25vw;
+}
+.container3{
+    height: 70vh;
+    width:   90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 1vw;
+    }
+   
+
+.bfour{
+    height: 33vh;
+    width: 25vw;
+
+    position: relative;
+}
+.bfour .top{
+    height: 23vh;
+    width: 25vw;
+    position: relative;
+}
+.bfour .top img{
+    height: 23vh;
+    width: 25vw;
+    object-fit: cover;
+    position: relative;
+}
+.bfour .bottom{
+     height: 10vh;
+     width: 25vw;
+     position: relative;
+}
+.bottom p{
+    position: relative;
+    top: 0;
+}
+.bfive{
+    height: 33vh;
+    width: 25vw;
+
+    position: relative;
+}
+.bfive .top2{
+    height: 23vh;
+    width: 25vw;
+    position: inherit;
+}
+.bfive .top2 img{
+    height: 23vh;
+    width: 25vw;
+    opacity: 2vh;
+    object-fit: cover;
+    position: relative;
+  
+}
+.bfive .bottom2{
+    height: 10vh;
+    width: 25vw;
+}
+.bsix{
+    height: 33vh;
+    width: 25vw;
+    position: relative;
+}
+.bsix .top3{
+    height: 23vh;
+    width: 25vw;
+}
+.bsix .top3 img{
+    height: inherit;
+    width: 25vw;
+    position: relative;
+    object-fit: cover;
+}
+.bsix .bottom3{
+    height: 10vh;
+    width: 25vw;
+    
+}
